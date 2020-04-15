@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Code/Integrated circuit design/lab01/part2/part2_isim_beh.exe" -prj "D:/Code/Integrated circuit design/lab01/part2/part2_beh.prj" "work.part2" 

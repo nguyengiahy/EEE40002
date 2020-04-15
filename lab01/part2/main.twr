@@ -1,0 +1,119 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n 3
+-fastpaths -xml main.twx main.ncd -o main.twr main.pcf
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,package,speed:     xc3s50,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |F<0>           |    9.168|
+A<0>           |F<1>           |   10.744|
+A<0>           |F<2>           |   11.160|
+A<0>           |F<3>           |   11.341|
+A<0>           |cout           |   11.268|
+A<0>           |z              |   12.599|
+A<1>           |F<1>           |   10.659|
+A<1>           |F<2>           |   11.075|
+A<1>           |F<3>           |   10.992|
+A<1>           |cout           |   10.919|
+A<1>           |z              |   12.250|
+A<2>           |F<2>           |    9.455|
+A<2>           |F<3>           |   10.141|
+A<2>           |cout           |   10.068|
+A<2>           |z              |   11.399|
+A<3>           |F<3>           |    9.742|
+A<3>           |cout           |    9.669|
+A<3>           |z              |   11.000|
+B<0>           |F<0>           |    9.454|
+B<0>           |F<1>           |   10.844|
+B<0>           |F<2>           |   11.260|
+B<0>           |F<3>           |   11.153|
+B<0>           |cout           |   11.024|
+B<0>           |z              |   12.411|
+B<1>           |F<1>           |   10.985|
+B<1>           |F<2>           |   11.401|
+B<1>           |F<3>           |   11.872|
+B<1>           |cout           |   11.799|
+B<1>           |z              |   13.130|
+B<2>           |F<2>           |    9.713|
+B<2>           |F<3>           |   10.339|
+B<2>           |cout           |   10.266|
+B<2>           |z              |   11.597|
+B<3>           |F<3>           |    9.609|
+B<3>           |cout           |    9.536|
+B<3>           |z              |   10.867|
+M              |F<0>           |    7.313|
+M              |F<1>           |    7.534|
+M              |F<2>           |    7.893|
+M              |F<3>           |    7.540|
+M              |cout           |    7.065|
+M              |z              |    8.916|
+cin            |F<0>           |   10.548|
+cin            |F<1>           |   10.927|
+cin            |F<2>           |   11.291|
+cin            |F<3>           |   11.184|
+cin            |cout           |   10.897|
+cin            |z              |   12.442|
+sel<0>         |F<0>           |   10.362|
+sel<0>         |F<1>           |   10.952|
+sel<0>         |F<2>           |   11.182|
+sel<0>         |F<3>           |   11.614|
+sel<0>         |cout           |   11.382|
+sel<0>         |z              |   12.872|
+sel<1>         |F<0>           |   10.881|
+sel<1>         |F<1>           |   11.260|
+sel<1>         |F<2>           |   11.487|
+sel<1>         |F<3>           |   11.451|
+sel<1>         |cout           |   11.219|
+sel<1>         |z              |   12.709|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Apr 15 15:49:37 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4470 MB
+
+
+

@@ -1,0 +1,2 @@
+vhdl isim_temp "main.vhd"
+vhdl isim_temp "part2_second_design.vhd"

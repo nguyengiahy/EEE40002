@@ -1,0 +1,8 @@
+V3 3
+FL "D:/Code/Integrated circuit design/lab01/part2_second_design/main.vhd" 2020/04/15.16:23:39 P.20131013
+EN work/main 1586931829 \
+      FL "D:/Code/Integrated circuit design/lab01/part2_second_design/main.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/main/Behavioral 1586931830 \
+      FL "D:/Code/Integrated circuit design/lab01/part2_second_design/main.vhd" \
+      EN work/main 1586931829

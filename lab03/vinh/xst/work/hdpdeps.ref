@@ -1,0 +1,36 @@
+V3 19
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Adder.vhd" 2020/06/05.18:47:02 P.20131013
+EN work/Adder 1591346855 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Adder.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Adder/Behavioral 1591346856 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Adder.vhd" \
+      EN work/Adder 1591346855
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Game.vhd" 2020/06/05.18:45:40 P.20131013
+EN work/Game 1591346857 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Game.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Game/Behavioral 1591346858 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Game.vhd" \
+      EN work/Game 1591346857
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/PR.vhd" 2020/06/05.18:47:32 P.20131013
+EN work/PR 1591346859 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/PR.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/PR/Behavioral 1591346860 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/PR.vhd" \
+      EN work/PR 1591346859
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Seven_segment.vhd" 2020/06/05.18:46:10 P.20131013
+EN work/Seven_segment 1591346861 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Seven_segment.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Seven_segment/Behavioral 1591346862 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Seven_segment.vhd" \
+      EN work/Seven_segment 1591346861
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Top_Module.vhd" 2020/06/05.18:43:24 P.20131013
+EN work/Top_Module 1591346863 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Top_Module.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Top_Module/Behavioral 1591346864 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Top_Module.vhd" \
+      EN work/Top_Module 1591346863 CP Adder CP Game CP PR CP Seven_segment

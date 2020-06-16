@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_modular/part1_modular.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_modular/part1_modular.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "part1_modular.ngc" part1_modular.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o part1_modular_map.ncd part1_modular.ngd part1_modular.pcf 
+par -w -intstyle ise -ol high -t 1 part1_modular_map.ncd part1_modular.ncd part1_modular.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml part1_modular.twx part1_modular.ncd -o part1_modular.twr part1_modular.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_modular/part1_modular.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_modular/part1_modular.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "part1_modular.ngc" part1_modular.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o part1_modular_map.ncd part1_modular.ngd part1_modular.pcf 
+par -w -intstyle ise -ol high -t 1 part1_modular_map.ncd part1_modular.ncd part1_modular.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml part1_modular.twx part1_modular.ncd -o part1_modular.twr part1_modular.pcf 

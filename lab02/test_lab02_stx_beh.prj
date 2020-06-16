@@ -1,0 +1,2 @@
+vhdl isim_temp "first_design.vhd"
+vhdl isim_temp "test_lab02.vhd"

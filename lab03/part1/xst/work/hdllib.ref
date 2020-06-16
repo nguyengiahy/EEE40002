@@ -1,0 +1,8 @@
+AR top_module behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Top_Module.vhd" sub00/vhpl07 1591332083
+AR standard_prng behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Standard_PRNG.vhd" sub00/vhpl01 1591332077
+AR seven_segment behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Seven_Segment.vhd" sub00/vhpl05 1591332081
+AR modular_prng behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Modular_PRNG.vhd" sub00/vhpl03 1591332079
+EN standard_prng NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Standard_PRNG.vhd" sub00/vhpl00 1591332076
+EN top_module NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Top_Module.vhd" sub00/vhpl06 1591332082
+EN seven_segment NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Seven_Segment.vhd" sub00/vhpl04 1591332080
+EN modular_prng NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Modular_PRNG.vhd" sub00/vhpl02 1591332078

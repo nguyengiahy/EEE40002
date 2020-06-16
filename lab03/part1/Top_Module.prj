@@ -1,0 +1,4 @@
+vhdl work "Standard_PRNG.vhd"
+vhdl work "Seven_Segment.vhd"
+vhdl work "Modular_PRNG.vhd"
+vhdl work "Top_Module.vhd"

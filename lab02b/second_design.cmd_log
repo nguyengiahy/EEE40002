@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -ol high -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -ol high -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -ol high -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -ol high -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02b/second_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "second_design.ngc" second_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o second_design_map.ncd second_design.ngd second_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 second_design_map.ncd second_design.ncd second_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml second_design.twx second_design.ncd -o second_design.twr second_design.pcf 

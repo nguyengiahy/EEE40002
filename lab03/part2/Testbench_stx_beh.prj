@@ -1,0 +1,6 @@
+vhdl isim_temp "Seven_Segment.vhd"
+vhdl isim_temp "PRNG.vhd"
+vhdl isim_temp "Game.vhd"
+vhdl isim_temp "Adder.vhd"
+vhdl isim_temp "Top_Module.vhd"
+vhdl isim_temp "Testbench.vhd"

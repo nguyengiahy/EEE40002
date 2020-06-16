@@ -1,0 +1,6 @@
+vhdl work "Seven_segment.vhd"
+vhdl work "PR.vhd"
+vhdl work "Game.vhd"
+vhdl work "Adder.vhd"
+vhdl work "Top_Module.vhd"
+vhdl work "test.vhd"

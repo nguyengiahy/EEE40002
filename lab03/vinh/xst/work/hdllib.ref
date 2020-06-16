@@ -1,0 +1,10 @@
+EN adder NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Adder.vhd" sub00/vhpl00 1591346855
+AR top_module behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Top_Module.vhd" sub00/vhpl09 1591346864
+AR seven_segment behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Seven_segment.vhd" sub00/vhpl07 1591346862
+EN top_module NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Top_Module.vhd" sub00/vhpl08 1591346863
+EN pr NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/PR.vhd" sub00/vhpl04 1591346859
+EN seven_segment NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Seven_segment.vhd" sub00/vhpl06 1591346861
+AR game behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Game.vhd" sub00/vhpl03 1591346858
+EN game NULL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Game.vhd" sub00/vhpl02 1591346857
+AR adder behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/Adder.vhd" sub00/vhpl01 1591346856
+AR pr behavioral "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/vinh/PR.vhd" sub00/vhpl05 1591346860

@@ -1,0 +1,5 @@
+work	"Adder.vhd"
+work	"Game.vhd"
+work	"PR.vhd"
+work	"Seven_segment.vhd"
+work	"Top_Module.vhd"

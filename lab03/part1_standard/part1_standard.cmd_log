@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_standard/part1_standard.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_standard/part1_standard.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "part1_standard.ngc" part1_standard.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o part1_standard_map.ncd part1_standard.ngd part1_standard.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_standard/part1_standard.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_standard/part1_standard.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "part1_standard.ngc" part1_standard.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o part1_standard_map.ncd part1_standard.ngd part1_standard.pcf 
+par -w -intstyle ise -ol high -t 1 part1_standard_map.ncd part1_standard.ncd part1_standard.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml part1_standard.twx part1_standard.ncd -o part1_standard.twr part1_standard.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_standard/part1_standard.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1_standard/part1_standard.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "part1_standard.ngc" part1_standard.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o part1_standard_map.ncd part1_standard.ngd part1_standard.pcf 
+par -w -intstyle ise -ol high -t 1 part1_standard_map.ncd part1_standard.ncd part1_standard.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml part1_standard.twx part1_standard.ncd -o part1_standard.twr part1_standard.pcf 

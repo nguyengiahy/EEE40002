@@ -1,0 +1,474 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Top_Module.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top_Module.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top_Module"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : Top_Module
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Adder.vhd" in Library work.
+Architecture behavioral of Entity adder is up to date.
+Compiling vhdl file "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Game.vhd" in Library work.
+Entity <game> compiled.
+Entity <game> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/PRNG.vhd" in Library work.
+Architecture behavioral of Entity prng is up to date.
+Compiling vhdl file "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Seven_Segment.vhd" in Library work.
+Architecture behavioral of Entity seven_segment is up to date.
+Compiling vhdl file "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Top_Module.vhd" in Library work.
+Architecture behavioral of Entity top_module is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top_Module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Game> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PRNG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Seven_Segment> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top_Module> in library <work> (Architecture <behavioral>).
+Entity <Top_Module> analyzed. Unit <Top_Module> generated.
+
+Analyzing Entity <Adder> in library <work> (Architecture <behavioral>).
+Entity <Adder> analyzed. Unit <Adder> generated.
+
+Analyzing Entity <Game> in library <work> (Architecture <behavioral>).
+Entity <Game> analyzed. Unit <Game> generated.
+
+Analyzing Entity <PRNG> in library <work> (Architecture <behavioral>).
+Entity <PRNG> analyzed. Unit <PRNG> generated.
+
+Analyzing Entity <Seven_Segment> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Seven_Segment.vhd" line 31: Mux is complete : default of case is discarded
+Entity <Seven_Segment> analyzed. Unit <Seven_Segment> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Adder>.
+    Related source file is "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Adder.vhd".
+    Found 4-bit adder for signal <Sum>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Adder> synthesized.
+
+
+Synthesizing Unit <Game>.
+    Related source file is "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Game.vhd".
+    Found finite state machine <FSM_0> for signal <currentState>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 8                                              |
+    | Outputs            | 6                                              |
+    | Clock              | Clock                     (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <TryAgain>.
+    Found 1-bit register for signal <Win>.
+    Found 1-bit register for signal <Roll>.
+    Found 1-bit register for signal <Lose>.
+    Found 4-bit comparator equal for signal <currentState$cmp_eq0005> created at line 63.
+    Found 4-bit register for signal <pointReg>.
+    Found 1-bit register for signal <secondAttempt>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Game> synthesized.
+
+
+Synthesizing Unit <PRNG>.
+    Related source file is "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/PRNG.vhd".
+    Found 8-bit register for signal <shadow>.
+    Found 1-bit xor4 for signal <shadow_7$xor0000> created at line 25.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <PRNG> synthesized.
+
+
+Synthesizing Unit <Seven_Segment>.
+    Related source file is "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Seven_Segment.vhd".
+Unit <Seven_Segment> synthesized.
+
+
+Synthesizing Unit <Top_Module>.
+    Related source file is "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part2/Top_Module.vhd".
+Unit <Top_Module> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 14
+ 1-bit register                                        : 13
+ 4-bit register                                        : 1
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+# Xors                                                 : 1
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <I2/currentState/FSM> on signal <currentState[1:3]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 000
+ startprn  | 001
+ stopprn   | 011
+ gamewin   | 010
+ gamelose  | 110
+ gameagain | 111
+-----------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+# Xors                                                 : 1
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Top_Module> ...
+
+Optimizing unit <Game> ...
+
+Optimizing unit <PRNG> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top_Module, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top_Module.ngr
+Top Level Output File Name         : Top_Module
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 77
+#      LUT2                        : 4
+#      LUT2_D                      : 1
+#      LUT3                        : 5
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 44
+#      LUT4_D                      : 3
+#      LUT4_L                      : 4
+#      MUXF5                       : 14
+# FlipFlops/Latches                : 20
+#      FDC                         : 12
+#      FDCE                        : 4
+#      FDPE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 2
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                       32  out of    768     4%  
+ Number of Slice Flip Flops:             20  out of   1536     1%  
+ Number of 4 input LUTs:                 63  out of   1536     4%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    124    16%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 20    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.528ns (Maximum Frequency: 153.182MHz)
+   Minimum input arrival time before clock: 3.865ns
+   Maximum output required time after clock: 8.898ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.528ns (frequency: 153.182MHz)
+  Total number of paths / destination ports: 170 / 28
+-------------------------------------------------------------------------
+Delay:               6.528ns (Levels of Logic = 4)
+  Source:            I3/shadow_5 (FF)
+  Destination:       I2/currentState_FSM_FFd1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: I3/shadow_5 to I2/currentState_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            18   0.626   1.499  I3/shadow_5 (I3/shadow_5)
+     LUT4_D:I0->O          4   0.479   0.802  I1/Madd_Sum_xor<3>111 (N01)
+     LUT4_D:I3->O          2   0.479   0.768  I1/Madd_Sum_xor<3>12 (sum<3>)
+     LUT4:I3->O            1   0.479   0.740  I2/currentState_FSM_FFd1-In64 (I2/currentState_FSM_FFd1-In64)
+     LUT4:I2->O            1   0.479   0.000  I2/currentState_FSM_FFd1-In134 (I2/currentState_FSM_FFd1-In)
+     FDC:D                     0.176          I2/currentState_FSM_FFd1
+    ----------------------------------------
+    Total                      6.528ns (2.718ns logic, 3.810ns route)
+                                       (41.6% logic, 58.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.865ns (Levels of Logic = 3)
+  Source:            Rb (PAD)
+  Destination:       I2/currentState_FSM_FFd3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: Rb to I2/currentState_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  Rb_IBUF (Rb_IBUF)
+     LUT3:I0->O            1   0.479   0.976  I2/currentState_FSM_FFd3-In4 (I2/currentState_FSM_FFd3-In4)
+     LUT4:I0->O            1   0.479   0.000  I2/currentState_FSM_FFd3-In70 (I2/currentState_FSM_FFd3-In)
+     FDC:D                     0.176          I2/currentState_FSM_FFd3
+    ----------------------------------------
+    Total                      3.865ns (1.849ns logic, 2.016ns route)
+                                       (47.8% logic, 52.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 129 / 17
+-------------------------------------------------------------------------
+Offset:              8.898ns (Levels of Logic = 3)
+  Source:            I2/Roll (FF)
+  Destination:       LED1<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: I2/Roll to LED1<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             36   0.626   1.890  I2/Roll (I2/Roll)
+     LUT4:I0->O            1   0.479   0.000  I5/Seg_Out<3>1 (I5/Seg_Out<3>)
+     MUXF5:I1->O           1   0.314   0.681  I5/Seg_Out<3>_f5 (LED2_3_OBUF)
+     OBUF:I->O                 4.909          LED2_3_OBUF (LED2<3>)
+    ----------------------------------------
+    Total                      8.898ns (6.328ns logic, 2.570ns route)
+                                       (71.1% logic, 28.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.09 secs
+ 
+--> 
+
+Total memory usage is 4521808 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

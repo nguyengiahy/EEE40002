@@ -1,0 +1,30 @@
+V3 15
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Modular_PRNG.vhd" 2020/06/05.14:36:17 P.20131013
+EN work/Modular_PRNG 1591332078 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Modular_PRNG.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Modular_PRNG/Behavioral 1591332079 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Modular_PRNG.vhd" \
+      EN work/Modular_PRNG 1591332078
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Seven_Segment.vhd" 2020/06/04.21:00:17 P.20131013
+EN work/Seven_Segment 1591332080 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Seven_Segment.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Seven_Segment/Behavioral 1591332081 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Seven_Segment.vhd" \
+      EN work/Seven_Segment 1591332080
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Standard_PRNG.vhd" 2020/06/04.21:08:51 P.20131013
+EN work/Standard_PRNG 1591332076 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Standard_PRNG.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Standard_PRNG/Behavioral 1591332077 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Standard_PRNG.vhd" \
+      EN work/Standard_PRNG 1591332076
+FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Top_Module.vhd" 2020/06/04.21:00:57 P.20131013
+EN work/Top_Module 1591332082 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Top_Module.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Top_Module/Behavioral 1591332083 \
+      FL "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab03/part1/Top_Module.vhd" \
+      EN work/Top_Module 1591332082 CP Standard_PRNG CP Modular_PRNG \
+      CP Seven_Segment

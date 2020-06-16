@@ -1,0 +1,71 @@
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -ol high -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -ol high -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -ol high -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
+xst -intstyle ise -ifn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.xst" -ofn "C:/Users/NO GO BE/OneDrive/Desktop/Code/Integrated circuit design/lab02/first_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "first_design.ngc" first_design.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o first_design_map.ncd first_design.ngd first_design.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 first_design_map.ncd first_design.ncd first_design.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml first_design.twx first_design.ncd -o first_design.twr first_design.pcf 
